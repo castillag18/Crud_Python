@@ -25,7 +25,7 @@ SECRET_KEY = '4%&r3_t0@asp(fxmdqt--))()srht*l45iog(=fk60a+*chg+3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'mysite2.urls'
+ROOT_URLCONF = 'Mysite2.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'mysite2.wsgi.application'
+WSGI_APPLICATION = 'Mysite2.wsgi.application'
 
 
 # Database
